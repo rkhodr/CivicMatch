@@ -1,26 +1,72 @@
-# Civic Match
+# CivicMatch
 
-### Civic Match is a political engagement platform designed to help citizens better understand which elected officials and candidates align most closely with their values.
+A political engagement platform that matches constituents with local representatives based on their political views. Built for Boston area politicians.
 
-### Inspired by the fact that U.S. voter participation remains low—often because many people don’t know who truly represents their views—we set out to create a solution that connects individuals to their senators, councilmembers, and even presidential candidates based on their location and responses to a questionnaire.
+## Features
 
-## Features 🚀 
+- **Interactive Map**: Visual representation of the USA with focus on Boston
+- **Political Questionnaire**: 6-question survey to assess political alignment
+- **AI-Powered Matching**: Algorithm that matches users with politicians based on their responses
+- **Boston Focus**: Curated list of local councilors, senators, and representatives
+- **Modern UI**: Beautiful, responsive design with smooth animations
 
-AI-Powered Matching Algorithm: Analyzes questionnaire responses to recommend representatives and candidates, increasing recommendation accuracy and user satisfaction by 25%.
+## Tech Stack
 
-Personalized Representative Lookup: Matches users to senators, councilmembers, and other officials using geolocation and district data.
+- **Frontend**: React with TypeScript
+- **Backend**: Node.js with Express
+- **Styling**: CSS3 with modern gradients and animations
+- **Data**: Curated Boston political data with scoring system
 
-Engagement Platform: Encourages civic awareness and boosts participation by bridging the gap between citizens and their government.
+## Quick Start
 
-## Tech Highlights 🛠️ 
+1. Install dependencies:
+```bash
+npm run install-all
+```
 
-Backend Infrastructure: Built scalable backend services for managing user responses, location data, and representative information.
+2. Start the development servers:
+```bash
+npm run dev
+```
 
-Data Analytics: Applied analytical models to translate user input into meaningful political alignment scores.
+3. Open your browser to `http://localhost:3000`
 
-Cross-Functional Collaboration: Worked with a team of engineers to enhance system performance, scalability, and real-time responsiveness.
+## How It Works
 
-## Motivation 📌
+1. **Take the Quiz**: Users answer 6 political questions covering:
+   - Economy
+   - Healthcare
+   - Environment
+   - Education
+   - Housing
+   - Public Safety
 
-U.S. voting numbers are consistently low, partly because many people lack clarity on which leaders best represent their views. Civic Match tackles this problem by making political alignment more transparent and accessible, lowering the barrier to engagement.
+2. **AI Matching**: The algorithm compares user responses to politician positions using a scoring system
 
+3. **Get Results**: Users see politicians ranked by alignment percentage
+
+## Boston Politicians Included
+
+- Michelle Wu (Mayor)
+- Ed Flynn (City Councilor, District 2)
+- Frank Baker (City Councilor, District 3)
+- Andrea Campbell (Attorney General)
+- Lydia Edwards (State Senator)
+
+## Project Structure
+
+```
+CivicMatch/
+├── client/          # React frontend
+├── server/          # Node.js backend
+├── package.json     # Root package configuration
+└── README.md        # This file
+```
+
+## Future Enhancements
+
+- Real-time political data integration
+- Expanded geographic coverage
+- Voting record analysis
+- Social sharing features
+- Mobile app development
