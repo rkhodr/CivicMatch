@@ -17,19 +17,6 @@ A political engagement platform that matches constituents with local representat
 - **Styling**: CSS3 with modern gradients and animations
 - **Data**: Curated Boston political data with scoring system
 
-## Quick Start
-
-1. Install dependencies:
-```bash
-npm run install-all
-```
-
-2. Start the development servers:
-```bash
-npm run dev
-```
-
-3. Open your browser to `http://localhost:3000`
 
 ## How It Works
 
@@ -55,13 +42,6 @@ npm run dev
 
 ## Project Structure
 
-```
-CivicMatch/
-├── client/          # React frontend
-├── server/          # Node.js backend
-├── package.json     # Root package configuration
-└── README.md        # This file
-```
 
 ## Future Enhancements
 
@@ -70,3 +50,4 @@ CivicMatch/
 - Voting record analysis
 - Social sharing features
 - Mobile app development
+
