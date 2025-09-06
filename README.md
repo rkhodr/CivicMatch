@@ -40,8 +40,6 @@ A political engagement platform that matches constituents with local representat
 - Andrea Campbell (Attorney General)
 - Lydia Edwards (State Senator)
 
-## Project Structure
-
 
 ## Future Enhancements
 
@@ -50,4 +48,5 @@ A political engagement platform that matches constituents with local representat
 - Voting record analysis
 - Social sharing features
 - Mobile app development
+
 
